@@ -1,33 +1,34 @@
+
 const songs = [
   {
     name: "Faded",
     artist: "Alan Walker",
-    audio: "../music/Faded.mp3",
-    image: "../images/faded.png",
+    audio: "./music/Faded.mp3",
+    image: "./images/faded.png",
   },
   {
     name: "Back Up Friend",
     artist: "FromTom",
-    audio: "../music/Back-Up-Friend.mp3",
+    audio: "./music/Back-Up-Friend.mp3",
     image:
       "https://tribeofnoisestorage.blob.core.windows.net/images/73248/photo_1615875865.jpg",
   },
   {
     name: "Falling Down",
     artist: "Lil Peep",
-    audio: "../music/fallingdown.mp3",
-    image: "../images/fallingdown.jpg",
+    audio: "./music/fallingdown.mp3",
+    image: "./images/fallingdown.jpg",
   },
   {
     name: "Stay",
     artist: "The Kid LAROI",
-    audio: "../music/stay.mp3",
-    image: "../images/stay.png",
+    audio: "./music/stay.mp3",
+    image: "./images/stay.png",
   },
   {
     name: "Golden",
     artist: "NeonNiteClub",
-    audio: "../music/golden.mp3",
+    audio: "./music/golden.mp3",
     image: "https://prosearch.tribeofnoise.com/dist/images/artist-banner.jpg",
   },
 ];
