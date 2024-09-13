@@ -1,0 +1,125 @@
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b, #6a11cb, #2575fc);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 0%;
+    }
+    50% {
+      background-position: 100% 100%;
+    }
+    100% {
+      background-position: 0% 0%;
+    }
+  }
+  
+  .music-container {
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #a2c2e4, #e0eafc, #c9d6ff, #e0c3fc);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .music-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .music-card h3 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+  }
+  
+  .music-card p {
+    font-size: 1rem;
+    color: #7f8c8d;
+  }
+  
+  .progress-container {
+    margin-top: 10px;
+  }
+  
+  #progress-bar {
+    width: 100%;
+  }
+  #play-pause-btn{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+
+  }
+  
+  #time-info {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .controls {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .control-btn {
+    padding: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+  }
+  
+  .control-btn:hover {
+    background-color: #2980b9;
+  }
+  
+  .volume-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #volume-slider {
+    width: 100px;
+    margin-left: 10px;
+  }
+  
+  .volume-container i {
+    font-size: 1.5rem;
+    color: #3498db;
+  }
+  
